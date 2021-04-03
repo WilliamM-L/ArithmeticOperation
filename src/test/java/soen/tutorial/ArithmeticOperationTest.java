@@ -14,7 +14,7 @@ public class ArithmeticOperationTest {
 		ArithmeticOperation operations = new ArithmeticOperation();
 		Integer actual = operations.addOrSub(2, 6);
 		Integer expected = 8;
-		Integer wrong = -6512
+		Integer wrong = -6512;
  		assertEquals(expected, wrong);
 
 	}
